@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins+Serif:opsz,wght@8..144,700&family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
@@ -16,11 +22,11 @@
 
         <div class="menu">
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Packages</li>
-            <li>Contact us</li>
-            <li>FAQ</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">FAQ</a></li>
           </ul>
         </div>
 
@@ -32,41 +38,54 @@
       </header>
 
       <main>
-        <div class="title">
-          <h3>Making the world your playground.</h3>
-          <h1>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum
-            aspernatur vitae, error culpa dolores temporibus impedit quae
-            molestiae distinctio dolore sint, voluptatibus soluta. Maiores,
-            dolor tempora! Minima delectus placeat repellendus.
-          </h1>
-        </div>
-
-        <div class="search">
-          <div class="location">
-            <label for="location">Location</label>
-            <select name="Select" id="location">
-              <option value="Valeur 1">Location</option>
-            </select>
-          </div>
-
-          <div class="hotel">
-            <label for="hotel">Hotel type</label>
-            <select name="Select" id="hotel">
-              <option value="Valeur 1">Hotel</option>
-            </select>
-          </div>
-
-          <div class="range">
-            <label for="date">Rent Range</label>
-            <input type="date" id="date" />
+        <div class="top">
+          <div class="title">
+            <h1>Making the world your playground.</h1>
+            <h3>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reiciendis iure dignissimos vel, quis officiis eaque vitae aperiam
+              quod.
+            </h3>
           </div>
         </div>
 
-        <div class="button-search">
-          <button>
-            <img src="assets/icon-search.svg" alt="search" />
-          </button>
+        <div class="bottom">
+          <div class="search">
+            <div class="location">
+              <label for="location">Location</label>
+              <select name="Select" id="location">
+                <option value="Valeur 1">Location</option>
+                <option value="Valeur 1">Location</option>
+                <option value="Valeur 1">Location</option>
+                <option value="Valeur 1">Location</option>
+                <option value="Valeur 1">Location</option>
+                <option value="Valeur 1">Location</option>
+              </select>
+            </div>
+
+            <div class="hotel">
+              <label for="hotel">Hotel type</label>
+              <select name="Select" id="hotel">
+                <option value="Valeur 1">Hotel</option>
+                <option value="Valeur 1">Hotel</option>
+                <option value="Valeur 1">Hotel</option>
+                <option value="Valeur 1">Hotel</option>
+                <option value="Valeur 1">Hotel</option>
+                <option value="Valeur 1">Hotel</option>
+              </select>
+            </div>
+
+            <div class="range">
+              <label for="date">Rent Range</label>
+              <input type="date" id="date" />
+            </div>
+          </div>
+
+          <div class="button-search">
+            <button>
+              <img src="assets/icon-search.svg" alt="search" />
+            </button>
+          </div>
         </div>
       </main>
     </div>

@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    outline: none;
+  
+    color: var(--couleur-texte);
+    transition: color 300ms;
+  }
+  
+  :root {
+    --couleur-texte: #f1f1f1;
+    --couleur-soustitre: #dacfcf;
+    --couleur-logo: #e2792d;
+    --couleur-button: #3535ff;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: url('assets/background-2.jpg');
+    background-size: cover;
+    color: var(--couleur-texte);
+    max-width: 1080px;
+    margin-inline: auto;
+  }
+  
+  .container {
+    margin: 25px;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .logo img {
+    width: 45px;
+    height: 45px;
+  }
+  
+  header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  header ul li {
+    font-size: 16px;
+    color: var(--couleur-texte);
+  }
+  
+  header ul li a:hover {
+    color: var(--couleur-logo);
+    border-bottom: 2px solid var(--couleur-button);
+  }
+  
+  button {
+    border: none;
+    background: var(--couleur-button);
+  
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+  }
+  
+  main {
+    padding-top: 10%;
+    max-width: 900px;
+    margin-inline: auto;
+  }
+  
+  .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+    margin: 0 auto;
+  }
+  
+  .top h3 {
+    padding-top: 30px;
+    color: var(--couleur-soustitre);
+    font-weight: 400;
+    font-size: 14px;
+    max-width: 500px;
+  }
+  
+  .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 45px;
+  }
+  
+  .bottom .search {
+    background-color: var(--couleur-texte);
+    border-radius: 15px;
+  
+    width: 70%;
+    padding: 18px;
+    opacity: 0.8;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .bottom .search label {
+    padding-bottom: 10px;
+    color: #000;
+  }
+  
+  .bottom .search .location,
+  .bottom .search .hotel,
+  .bottom .search .range {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-inline: 25px;
+  }
+  
+  .bottom .search label,
+  .bottom .search select {
+    border: none;
+    outline: none;
+  }
+  
+  .bottom .button-search {
+    padding-left: 20px;
+    opacity: 0.7;
+  }
+  
+  .bottom button {
+    padding: 27px;
+  }
+  
+  .bottom button img {
+    width: 27px;
+    height: 27px;
+  }
+  
